@@ -22,7 +22,7 @@ p, small {
 	overflow: hidden;
 }
 
-.video-container iframe, {
+.map iframe, {
 	position: absolute;
 	top: 0;
 	left: 0;
