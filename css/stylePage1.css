@@ -14,9 +14,10 @@ p, small {
 	text-align: justify;
 }
 
-#map {
+.map {
 	width: 500px; 
 	height: 200px;
+	border: 0;
 }
 
 .lucky {

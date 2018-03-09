@@ -50,41 +50,5 @@ p {
   background-color: #BFB5AF;
 }
 
-/*Mobile Styles*/
 
-@media only screen and (min-width: 320px) and (min-height: 568px) {
-    #myVideo {
-        height: 100%;
-    }
-
-/*Tablet Styles*/
-    /* Portrait */
-@media only screen
-  and (min-device-width: 834px)
-  and (max-device-width: 834px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-      #myVideo {
-          height: 100%;
-          width: 100%;
-      }
-}
- 
-    /* Landscape */
-@media only screen
-  and (min-width: 1112px)
-  and (max-width: 1112px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2) {         
-     #myVideo {
-          height: 100%;
-          width: 100%;
-    }
- 
-/*Desktop Styles*/
-@media only screen and (min-width : 992px) {
-    #myVideo {
-    width: 100%;
-    }
-}
 
