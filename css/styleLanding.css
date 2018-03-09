@@ -8,6 +8,8 @@ body {
 }
 
 #myVideo {
+    background-color: black;
+    background-size: 100%;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -15,8 +17,10 @@ body {
     min-height: 100%;
 }
 
+
 .content {
     position: fixed;
+    text-align: center;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
@@ -40,7 +44,7 @@ body {
 }
 
 footer {
-  text-align: right;
+  text-align: center;
 }
 
 
@@ -51,3 +55,33 @@ footer {
         height: 100%;
     }
 
+/*Tablet Styles*/
+    /* Portrait */
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 834px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      #myVideo {
+          height: 100%;
+          width: 100%;
+      }
+}
+ 
+    /* Landscape */
+@media only screen
+  and (min-width: 1112px)
+  and (max-width: 1112px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {         
+     #myVideo {
+          height: 100%;
+          width: 100%;
+    }
+ 
+/*Desktop Styles*/
+@media only screen and (min-width : 992px) {
+    #myVideo {
+    width: 100%;
+    }
+}
